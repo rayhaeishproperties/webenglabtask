@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CRUD Operation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="Name "> Name </label>
+                        <input type="text" name="Name" id="Name" >
+                    </div>
+                    <div>
+                        <label for=" Education "> Education </label>
+                        <input type="text" name="Education" id="Education" >
+                    </div>
+                    <div>
+                        <label for=" Experience "> Experience </label>
+                        <input type="number" name="Experience" id="Experience" >
+                    </div>
+                    <div>
+                        <label for="National-ID "> National-ID </label>
+                        <input type="number" name="National-ID" id="National-ID" >
+                    </div>
+                    <div class="form-action-button">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+                <td>
+                    <table class="list" id="list">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Education</th>
+                                <th>Experience</th>
+                                <th>National-ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+
+<script type="text/javascript" src="./script.js"></script>
+
+</body>
+</html>
